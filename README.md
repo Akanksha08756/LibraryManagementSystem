@@ -22,8 +22,15 @@ Manages books, students, and book issue/return records efficiently.
 ---
 
 ## ⚙️ Database Setup
-1. Create a database (e.g., `librarydb`) in MySQL.
-2. Import the SQL file: `database/librarydb.sql`.
+
+1. Create a database in MySQL (e.g., `librarydb`).
+2. Import the SQL files in the following order:
+
+   1. `database/librarydb_books.sql`
+   2. `database/librarydb_papers.sql`
+   3. `database/librarydb_students.sql`
+   4. `database/librarydb_issues.sql`
+
 3. Update MySQL username & password in the JDBC connection file.
 
 ---
